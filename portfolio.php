@@ -88,17 +88,19 @@
         <thead>
           <tr>
             <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">second</th>
-            <th scope="col">Third</th>
+            <th scope="col">Value1</th>
+            <th scope="col">value2</th>
+            <th scope="col">Product</th>
+            <th scope="col">sum</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td>Mark</td>
-            <td>craig</td>
-            <td>chris</td>
+            <td><?php echo "$num1"?></td>
+            <td><?php echo "$num2"?></td>
+            <td><?php echo "$product"?></td>
+            <td><?php echo "$sum"?></td>
           </tr>
           <tr>
             <th scope="row">2</th>
