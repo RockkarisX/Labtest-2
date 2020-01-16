@@ -59,7 +59,32 @@
         </div>
 
     </div>
-    <table class="table" style = "background-color: black; color: blanchedalmond;">
+   
+    <?php
+      echo "Hellow world";
+      $num1 = 10;
+      $num2 = 20;
+      $sum = $num1 + $num2;
+      $product = $num1 * $num2;
+
+      echo "<br> first number:".$num1;
+      echo "<br>second number:".$num2;
+      echo "<br>the sum is".$sum;
+      echo "<br>the product is".$product; 
+      echo '<div class="alert alert-success" role="alert">
+      THE SUM IS '.$sum.'
+    </div>';
+    echo "<div class='alert alert-primary' role='alert'>
+   PRODUCT IS ".$product."
+  </div>";
+
+    ?>
+
+<p> the productwas <?=$product?> </p>
+    <div class="alert alert-danger" role="alert">
+      A simple primary alert—check it out!
+    </div>
+    <table class="table table-striped">
         <thead>
           <tr>
             <th scope="col">#</th>
