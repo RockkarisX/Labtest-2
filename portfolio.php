@@ -62,8 +62,8 @@
    
     <?php
       echo "Hellow world";
-      $num1 = 10;
-      $num2 = 20;
+      $num1 = 45;
+      $num2 = 70;
       $sum = $num1 + $num2;
       $product = $num1 * $num2;
 
@@ -97,7 +97,7 @@
         <tbody>
           <tr>
             <th scope="row">1</th>
-            <td><?php echo "$num1"?></td>
+            <td><?=$num1?></td>
             <td><?php echo "$num2"?></td>
             <td><?php echo "$product"?></td>
             <td><?php echo "$sum"?></td>
